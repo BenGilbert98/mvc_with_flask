@@ -14,9 +14,9 @@ def home():
     return "<h1>This is a dream team of DevOps consultants celebrating a WOW moment!!!</h1> "
 
 
-@app.route("/welcome/")
+@app.route("/welcome/")  # http://127.0.0.1:5000/welcome/
 def greet_user():
-    return "Welcome to DevOps team"
+    return render_template("welcome.html")
 
 
 # This function runs when the URL/API is accessed
