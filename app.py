@@ -55,3 +55,8 @@ def index():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+# create a base.html file in templates folder
+# copy index.html to base.html
+# google how to extend code from base.html to index.html
+# Create text boxes for login form
