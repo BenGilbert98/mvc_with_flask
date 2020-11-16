@@ -83,3 +83,11 @@ def login():
 def welcome_user(username):
     return f"<h1>Welcome to the dream team of DevOps {username}</h1>"
 ```
+
+**Interacting with HTML**
+- Naming convention are essential 
+- We need to create templates folder in our dir
+- flask looks for templates folder and anything inside the folder
+- Inside templates folder : index.html 
+
+- Bootstrap to design our page with HTML, CSS, JS
